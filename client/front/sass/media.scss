@@ -1,0 +1,41 @@
+#media {
+  background: url('../img/media.jpg') center center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 0;
+
+  iframe {
+    border: 0;
+  }
+
+  .col-2 {
+    border-right: 1px dotted $lightBlue;
+    flex: 1;
+    padding: 0 15px;
+    width: 50%;
+
+    &:last-of-type {
+      border: 0;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  }
+
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

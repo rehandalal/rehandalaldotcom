@@ -1,0 +1,12 @@
+@mixin block-text() {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+@mixin clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}

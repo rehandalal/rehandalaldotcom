@@ -1,0 +1,76 @@
+#splash {
+  box-sizing: border-box;
+  color: $lightestBlue;
+  height: 100%;
+  padding: 15px;
+  position: relative;
+
+  .background-image {
+    background: url('../img/splash.jpg') 50% 25%;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 15px 30px;
+  }
+
+  .logo {
+    fill: $lightestBlue;
+  }
+
+  header {
+    nav {
+      a,
+      a:visited,
+      a:hover {
+        color: $lightestBlue;
+      }
+
+      ul {
+        > li {
+          &:hover {
+            border-color: $lightestBlue;
+          }
+        }
+      }
+    }
+  }
+
+  form {
+    bottom: 120px;
+    left: 50%;
+    margin-left: -307.5px;
+    position: absolute;
+    text-align: center;
+    width: 615px;
+
+    h2,
+    h3 {
+      margin: 0 0 0.8em;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      text-transform: none;
+    }
+
+    h3 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    input {
+      display: inline-block;
+      width: 300px;
+
+      + input {
+        margin-left: 15px;
+      }
+    }
+  }
+}

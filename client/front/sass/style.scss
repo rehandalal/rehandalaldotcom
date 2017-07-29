@@ -1,0 +1,214 @@
+@import 'colors';
+@import 'mixins';
+
+html,
+body,
+#root,
+#root > div {
+  color: $slate;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+h1,
+h2 {
+  @include block-text();
+
+  letter-spacing: 0.06em;
+  margin: 0.6em 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+a,
+a:visited {
+  color: $linkBlue;
+  text-decoration: none;
+  transition: all ease 0.2s;
+}
+
+a:hover {
+  color: $linkHover;
+}
+
+p {
+  line-height: 140%;
+  margin: 0.6em 0 1.2em;
+}
+
+header {
+  &.main {
+    background: #FFF;
+    box-sizing: border-box;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    transition: all ease 0.2s;
+    width: 100%;
+    z-index: 100;
+
+    &.hidden {
+      top: -53px;
+    }
+  }
+
+  .logo {
+    fill: $slate;
+  }
+
+  nav {
+    @include block-text();
+
+    float: right;
+    font-kerning: none;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+
+    a,
+    a:visited,
+    a:hover {
+      color: $slate;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    ul {
+      line-height: 20px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+
+      > li {
+        border-bottom: 3px solid transparent;
+        display: inline-block;
+        margin-left: 30px;
+        transition: all ease 0.2s;
+
+        &:hover,
+        &.active {
+          border-color: $slate;
+        }
+      }
+    }
+  }
+}
+
+section {
+  box-sizing: border-box;
+
+  main,
+  aside {
+    padding: 15px;
+  }
+
+  main {
+    flex-grow: 1;
+    min-width: 420px;
+  }
+
+  aside {
+    flex-basis: 420px;
+    position: relative;
+  }
+}
+
+footer {
+  @include clearfix();
+
+  font-size: 12px;
+  line-height: 24px;
+  padding: 15px;
+
+  .copyright {
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+  }
+
+  .reflex-logo {
+    display: inline-block;
+    fill: $slate;
+    float: right;
+    width: 24px;
+  }
+
+  nav {
+    float: left;
+
+    ul {
+      display: inline-block;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      > li {
+        border-right: 1px dotted $lightestBlue;
+        display: inline-block;
+        height: 24px;
+        margin-right: 15px;
+        padding-right: 15px;
+        vertical-align: middle;
+
+        &:last-of-type {
+          border-right: 0;
+        }
+      }
+    }
+  }
+
+  a,
+  a:visited,
+  a:hover {
+    color: $slate;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .social-icon {
+    display: inline-block;
+    height: 24px;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all ease 0.2s;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    &:last-of-type {
+      margin: 0;
+    }
+
+    .fa {
+      font-size: 24px;
+      width: 24px;
+    }
+  }
+}
+
+@import 'forms';
+@import 'splash';
+@import 'news';
+@import 'tour';
+@import 'store';
+@import 'media';
+@import 'press';
+@import 'about';

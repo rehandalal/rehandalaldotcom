@@ -1,0 +1,16 @@
+*.pyc
+.env*
+db.sqlite3
+.DS_Store
+webpack-stats.json
+npm-debug.log
+__pycache__/
+/assets/
+/static/
+/media/
+_build
+/.cache/
+/etc/ssl
+/__version__/
+/tmp
+/node_modules

@@ -1,0 +1,50 @@
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+  background: transparentize($slate, 0.2);
+  border: 0;
+  box-shadow: 0 0 0 1px $lightestBlue;
+  box-sizing: border-box;
+  color: $lightestBlue;
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.06em;
+  margin-bottom: 1.2em;
+  outline: none;
+  padding: 8px 8px 11px;
+  text-align: center;
+  transition: all ease 0.2s;
+  width: 100%;
+
+  &::placeholder {
+    color: $lightestBlue;
+    opacity: 0.6;
+    font-style: italic;
+  }
+
+  &:focus {
+    &::placeholder {
+      color: transparentize($lightestBlue, 0.5);
+    }
+  }
+}
+
+button {
+  background: transparentize($lightestBlue, 0.15);
+  border: 0;
+  color: $slate;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  outline: none;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  transition: all ease 0.2s;
+
+  &:hover {
+    background: $lightestBlue;
+  }
+}

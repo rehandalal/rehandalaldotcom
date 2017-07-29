@@ -1,0 +1,17 @@
+actions:
+  flake8:
+    run: flake8 {files}
+    include: "*.py"
+    exclude:
+      - "node_modules/"
+  eslint:
+    run: ./node_modules/.bin/eslint {files}
+    include:
+      - "*.js"
+      - "*.jsx"
+    exclude:
+      - "node_modules/"
+      - "client/js/"
+  stylelint:
+    run: ./node_modules/.bin/stylelint {files} --syntax scss
+    include: "*.scss"

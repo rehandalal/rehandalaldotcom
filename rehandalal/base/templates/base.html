@@ -1,0 +1,34 @@
+{% load render_bundle from webpack_loader %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rehan Dalal</title>
+    <meta name="description" content="The official website of Rehan Dalal.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    <link href="//fonts.googleapis.com/css?family=Montserrat:700|Playfair+Display:400,400i,700|Raleway:400" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+    {% render_bundle 'front' 'css' %}
+  </head>
+  <body data-csrf="{{ csrf_token }}">
+    <div id="root"></div>
+
+    {% render_bundle 'front' 'js' %}
+
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script async src="//apis.google.com/js/platform.js"></script>
+
+    {% if settings.GA_SITE_ID %}
+      <script>
+        window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+        ga('create','{{ settings.GA_SITE_ID }}','auto');ga('send','pageview')
+      </script>
+      <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    {% endif %}
+  </body>
+</html>

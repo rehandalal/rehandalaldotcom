@@ -1,0 +1,11 @@
+#tour {
+  background: url('../img/tour.jpg') center center fixed;
+  background-size: cover;
+  color: $lightestBlue;
+  min-height: 100%;
+  padding: 15px;
+
+  h1 {
+    text-align: center;
+  }
+}

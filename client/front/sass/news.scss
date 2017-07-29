@@ -1,0 +1,25 @@
+#news {
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 15px;
+  min-height: 100%;
+
+  aside {
+    border-left: 1px dotted $lightestBlue;
+
+    .feed {
+      bottom: 0;
+      left: 15px;
+      overflow: auto;
+      position: absolute;
+      right: 15px;
+      top: 80px;
+    }
+
+    .follow-button {
+      position: absolute;
+      right: 15px;
+      top: 25px;
+    }
+  }
+}
