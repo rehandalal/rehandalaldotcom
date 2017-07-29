@@ -1,0 +1,30 @@
+image: python:3.5.2
+
+test:
+  services:
+    - mariadb:10.0
+
+  variables:
+    MYSQL_ROOT_PASSWORD: password
+    DATABASE_URL: "mysql://root:password@mariadb/rehandalal"
+  script:
+    # Install Node
+    - curl -sL https://deb.nodesource.com/setup_8.x | bash -
+    - apt-get install -y nodejs
+
+    # Install python dependencies
+    - pip install --upgrade pip
+    - pip install -r requirements/default.txt -c requirements/constraints.txt --require-hashes
+
+    # Install Node dependencies
+    - npm install
+
+    # Handle static files
+    - npm run build
+    - ./manage.py collectstatic --no-input
+
+    # Lint
+    - therapist run --use-tracked-files
+
+    # Test
+    - py.test
