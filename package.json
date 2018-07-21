@@ -11,7 +11,7 @@
     "build": "webpack --config ./webpack.config.js"
   },
   "dependencies": {
-    "immutable": "3.8.1",
+    "immutable": "3.8.2",
     "jed": "1.1.1",
     "normalize-css": "2.3.1",
     "prop-types": "15.5.10",
