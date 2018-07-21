@@ -20,7 +20,7 @@
     "react-redux": "5.0.5",
     "redux": "3.7.2",
     "redux-little-router": "14.2.0",
-    "redux-thunk": "2.2.0"
+    "redux-thunk": "2.3.0"
   },
   "devDependencies": {
     "autoprefixer": "7.1.2",
