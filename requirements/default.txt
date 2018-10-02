@@ -27,8 +27,8 @@ mysqlclient==1.3.13 \
 pytest==3.8.1 \
     --hash=sha256:0a72d8a9f559c006ba153e0c9b4838efd7b656cf1f993747ba7128770d6eb12c \
     --hash=sha256:95529588ff4e85114a0b0ad8e9cf0131ca47d46b28230e25366c5aba66b1d854
-pytest-django==3.3.2 \
-    --hash=sha256:088b66211c57972e7bd072ba73ccec1c3b6f6185f894b3b8eb966d2f3b7d46cb \
-    --hash=sha256:3fea4d0a84bf3af1f1e82448b9a91b3ddb22b659d802e026ae843040da0c3220
+pytest-django==3.4.3 \
+    --hash=sha256:49e9ffc856bc6a1bec1c26c5c7b7213dff7cc8bc6b64d624c4d143d04aff0bcf \
+    --hash=sha256:b379282feaf89069cb790775ab6bbbd2bd2038a68c7ef9b84a41898e0b551081
 therapist==1.3.2 \
     --hash=sha256:81c8f8bc47170869f36a133f3af7d77cb587a3ebb5480950e6fcc15ca5965e81
