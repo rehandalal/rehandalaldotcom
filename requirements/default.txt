@@ -19,9 +19,9 @@ flake8==3.6.0 \
 hashin==0.14.1 \
     --hash=sha256:5dbf06b2adc32e5e438b9b9b352622b787c8555d4a2aa88b38d64764526f81a1 \
     --hash=sha256:43ae3277fbd937ba1c99bc3fef9e4dd2e68cd5f2eea8f60ebdb53d83983d861b
-mailchimp3==3.0.4 \
-    --hash=sha256:ed1ae55ca1f1e9c129b3b3a5b7c7bbd7d587e69347560ad2f1d94a22e5d656e8 \
-    --hash=sha256:d7f610724a641c8bffe52a4bc42531b9a52e2e1feca0a516c25a91a38cfe686b
+mailchimp3==3.0.6 \
+    --hash=sha256:77fa4e8587abfc145394a53f844822c5660d0b4dffbcc162700e02be275183c2 \
+    --hash=sha256:12dcb25e9243a11404d34c91256ba0fc5aff3dc54ec9c5e2af077bd43d4dd5fb
 mysqlclient==1.3.13 \
     --hash=sha256:ff8ee1be84215e6c30a746b728c41eb0701a46ca76e343af445b35ce6250644f
 pytest==3.6.3 \
