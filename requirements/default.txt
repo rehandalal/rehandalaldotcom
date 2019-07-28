@@ -32,5 +32,6 @@ pytest==5.0.1 \
 pytest-django==3.5.1 \
     --hash=sha256:264fb4c506db5d48a6364c311a0b00b7b48a52715bad8839b2d8bee9b99ed6bb \
     --hash=sha256:4adfe5fb3ed47f0ba55506dd3daf688b1f74d5e69148c10ad2dd2f79f40c0d62
-therapist==1.3.2 \
-    --hash=sha256:81c8f8bc47170869f36a133f3af7d77cb587a3ebb5480950e6fcc15ca5965e81
+therapist==1.6.0 \
+    --hash=sha256:ba7bebe4df1ee7c78b420b5894824ce8150868eab8819e8a4a510feefc0e2884 \
+    --hash=sha256:e29c8c07676215093318e7b8aadc6c59784a1d9877eff77ffce20c9d63770a24
