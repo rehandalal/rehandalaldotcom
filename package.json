@@ -52,7 +52,7 @@
     "postcss-loader": "2.0.6",
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
-    "stylelint": "8.0.0",
+    "stylelint": "8.4.0",
     "stylelint-config-standard": "17.0.0",
     "stylelint-declaration-block-order": "0.2.0",
     "stylelint-scss": "1.5.1",
