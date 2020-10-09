@@ -16,9 +16,9 @@ djangorestframework==3.12.1 \
 flake8==3.8.4 \
     --hash=sha256:749dbbd6bfd0cf1318af27bf97a14e28e5ff548ef8e5b1566ccfb25a11e7c839 \
     --hash=sha256:aadae8761ec651813c24be05c6f7b4680857ef6afaae4651a4eccaef97ce6c3b
-hashin==0.13.2 \
-    --hash=sha256:4aaa2890d63e0eff9e1038e8a602eccbfe2eb90aa8177ff2b2db018815e2be95 \
-    --hash=sha256:40c51ea166442889c1cedf0f909956e6ca1c4b39c28d121a9b22dc90b4b44b1d
+hashin==0.15.0 \
+    --hash=sha256:0ca4ce1507216b1fdeffb8cc009eb0561e81449668ffe436484f156ec27e6c22 \
+    --hash=sha256:316dff5c5f0bf98560682e92386fa4386a8ae402592f647d07bf7e450ea8f053
 mailchimp3==3.0.4 \
     --hash=sha256:ed1ae55ca1f1e9c129b3b3a5b7c7bbd7d587e69347560ad2f1d94a22e5d656e8 \
     --hash=sha256:d7f610724a641c8bffe52a4bc42531b9a52e2e1feca0a516c25a91a38cfe686b
