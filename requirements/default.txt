@@ -10,9 +10,9 @@ django-configurations==2.2 \
 django-webpack-loader==1.1.0 \
     --hash=sha256:8a428355de2f88418209d84ad38bf33ad175fc370d3f778ffec8ea26041e589d \
     --hash=sha256:c7f89a272a177a17a045ceab26bbb7e35d28ca5597c384de96817784b610c977
-djangorestframework==3.8.2 \
-    --hash=sha256:c375e4f95a3a64fccac412e36fb42ba36881e52313ec021ef410b40f67cddca4 \
-    --hash=sha256:b6714c3e4b0f8d524f193c91ecf5f5450092c2145439ac2769711f7eba89a9d9
+djangorestframework==3.12.4 \
+    --hash=sha256:6d1d59f623a5ad0509fe0d6bfe93cbdfe17b8116ebc8eda86d45f6e16e819aaf \
+    --hash=sha256:f747949a8ddac876e879190df194b925c177cdeb725a099db1460872f7c0a7f2
 flake8==3.5.0 \
     --hash=sha256:c7841163e2b576d435799169b78703ad6ac1bbb0f199994fc05f700b2a90ea37 \
     --hash=sha256:7253265f7abd8b313e3892944044a365e3f4ac3fcdcfb4298f55ee9ddf188ba0
