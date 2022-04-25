@@ -7,9 +7,9 @@ Django==4.0.4 \
 django-configurations==2.3.2 \
     --hash=sha256:bd1a77a60735839b7d105912cc3977735fa005ea06544c632fbd322d1e021677 \
     --hash=sha256:c0363b0111df6536442186d0f23d12138390eaa9f4f97ce46950ee78856a46c9
-django-webpack-loader==0.6.0 \
-    --hash=sha256:970b968c2a8975fb7eff56a3bab5d0d90d396740852d1e0c50c5cfe2b824199a \
-    --hash=sha256:60bab6b9a037a5346fad12d2a70a6bc046afb33154cf75ed640b93d3ebd5f520
+django-webpack-loader==1.5.0 \
+    --hash=sha256:5e199ab2e069cc747088e9d017409a2adb7b7bdea4aad37ebcfde3b29f66b2e4 \
+    --hash=sha256:f97f56200cfc206553dc8be850e100a7711a66bc568bce267bc67b4f56d22ca4
 djangorestframework==3.8.2 \
     --hash=sha256:c375e4f95a3a64fccac412e36fb42ba36881e52313ec021ef410b40f67cddca4 \
     --hash=sha256:b6714c3e4b0f8d524f193c91ecf5f5450092c2145439ac2769711f7eba89a9d9
